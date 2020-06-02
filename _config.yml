@@ -4,17 +4,17 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Streamelody
-subtitle: Days in a Green Hill
-description: 小河流我愿待在你身旁 听你唱永恒的歌声
-author: 小溪之歌
+title: Mrnx2004
+subtitle: To be, or not to be.
+description: 生存亦或毁灭
+author: Mrnx2004
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: https://streamelody.github.io/
+url: https://mrnx2004.github.io/
 baseurl:
 
 permalink: /:year/:month/:title/
@@ -217,10 +217,10 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://github.com/streamelody
-  Email: shuangyeying@gmail.com
-  Facebook: https://facebook.com/streamelody
-  Weibo: http://www.weibo.com/bailuer
+  GitHub: https://github.com/mrnx2004
+  Email: mrnx2004@gmail.com
+  Facebook:
+  Weibo: 
 
 # Social Links Icons
 # Icon Mapping:
