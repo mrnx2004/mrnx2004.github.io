@@ -1,0 +1,32 @@
+.category-all-page {
+  .category-all-title {
+    background: white;
+    text-align: center;
+    padding-bottom:40px;
+  }
+
+  .category-all { margin-top: -34px; }
+
+  .category-list {
+    background: white;
+    list-style: none;
+    padding: 0px 10px 40px 10px;
+    text-align: center;
+  }
+
+  .category-list-item { margin: 5px 10px; }
+
+  .category-list-count {
+    color: $grey;
+    &:before {
+      display: inline;
+      content: " ("
+    }
+    &:after {
+      display: inline;
+      content: ") "
+    }
+  }
+
+  .category-list-child { padding-left: 10px; }
+}

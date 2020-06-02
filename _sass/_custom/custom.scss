@@ -1,0 +1,63 @@
+// Custom styles.
+//设置标题区字体
+@font-face {
+  font-family: simi;
+  src: url('/assets/fonts/simi.otf');
+}
+//标题字体
+.site-title {
+  font-size: 30px;
+  font-family: 'simi' !important;
+}
+//副标题字体
+.site-subtitle {
+  font-size: 20px;
+  font-family: 'simi' !important;
+}
+
+// 修改标题字体粗细
+
+.posts-expand .post-title {
+  font-weight: 300;
+}
+
+//自定义背景图片
+body{
+background:url(/assets/images/bg.jpg);
+background-attachment:fixed;
+}
+
+// 自定义文章链接样式
+.post-body a {
+  color: #42b983;
+  text-decoration: none;
+}
+
+.post-body ul, ol {
+  margin: 5px 5px;
+  padding-left: 20px;
+}
+
+// 自定义文章样式
+article {
+  background: white;
+  //box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 12px;
+  padding: 0em 3em 0em;
+}
+
+// 自定义 footer 与 article 的间距
+.main {
+  padding-bottom: 100px; }
+
+.posts-collapse {
+  position: relative;
+  z-index: 1010;
+  background: white;
+  padding: 5px 15px 10px 15px;
+  margin-left: 0px;
+}
+
+.posts-expand {
+  margin: 0px 0px;
+}
