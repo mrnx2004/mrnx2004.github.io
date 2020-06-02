@@ -6,6 +6,7 @@ Thumbs.db
 
 !.gitkeep
 
+.sass-cache
 .rbenv-version
 .rvmrc
 /vendor
